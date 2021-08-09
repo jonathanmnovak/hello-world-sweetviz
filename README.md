@@ -45,7 +45,7 @@ This is a much needed enhancement  to see if the distributions of features and
 the target variables are consistent between training and testing.
 * No tags to represent data issues. This is a nice feature in the pandas profiling
 package that isn't available in sweetviz. However, the missing values percentages are 
-highlighted (green, yellow, and red) to indicate whether this is a potential issue.
+highlighted (green, yellow, and red) to indicate whether there is an issue.
 
 ###Resources
 * [Powerful EDA (Exploratory Data Analysis) in just two lines of code using Sweetviz](https://towardsdatascience.com/powerful-eda-exploratory-data-analysis-in-just-two-lines-of-code-using-sweetviz-6c943d32f34)
