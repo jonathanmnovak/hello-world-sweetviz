@@ -45,7 +45,6 @@ features with categorical features)
 * Analyzing the relationship of features with target variable
 
 Cons
-* Wide screen monitor is required to view on the outputs from the html report
 * When analyzing a specific feature, the relationship with the target variable 
 isn't broken down by each dataset (train and test) and instead it is combined. 
 This is a much needed enhancement to see if the distributions of features and 
