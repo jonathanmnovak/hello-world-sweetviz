@@ -3,7 +3,7 @@ Repository used to explore the
 [Sweetviz](https://github.com/fbdesignpro/sweetviz) EDA Python library. I'll 
 be following the tutorials in the resources section.
 
-###Setup
+### Setup
 This setup assumes Python 3 is installed and that you are using MacOS.
 
 Create environment:  
@@ -20,7 +20,7 @@ If a requirements file is provided, then you can install by running the
 following:  
 `pip install -r requirements.txt` 
 
-###Tutorials
+### Tutorials
 For the 
 [Titanic Tutorial](https://towardsdatascience.com/powerful-eda-exploratory-data-analysis-in-just-two-lines-of-code-using-sweetviz-6c943d32f34), run the following: 
 `python3 ./tutorial/titanic_tutorial.py`
@@ -37,7 +37,7 @@ Output reports are placed in `./tutorial/output`
 * Report which compares "Female" vs "Male" sub-populations for the training data: 
 `titanic_sub_pop_report.html`
 
-####General thoughts:
+#### General thoughts:
 Pros 
 * Comparing two datasets to see if iid is held
 * Analyzing mixed variable feature relationships (i.e. comparing numerical 
@@ -59,6 +59,6 @@ features (i.e. distribution statistics) and relationships (i.e. correlations)
 Overall: This is a great library that provides a ton of automated EDA and is 
 relatively simple to setup.
 
-###Resources
+### Resources
 * [Powerful EDA (Exploratory Data Analysis) in just two lines of code using Sweetviz](https://towardsdatascience.com/powerful-eda-exploratory-data-analysis-in-just-two-lines-of-code-using-sweetviz-6c943d32f34)
 * [Know your data much faster with the new Sweetviz Python library](https://www.kdnuggets.com/2021/03/know-your-data-much-faster-sweetviz-python-library.html)
