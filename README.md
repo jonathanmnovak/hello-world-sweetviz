@@ -34,6 +34,8 @@ Output reports are placed in `./tutorial/output`
 `titanic_feature_config_chg_report.html`
     **Note: You can also change the `dtype` in pd.read_csv to force a column to
     a specific datatype (sweetviz will pickup this change)
+* Report which compares "Female" vs "Male" sub-populations for the training data: 
+`titanic_sub_pop_report.html`
 
 ####General thoughts:
 Pros 
@@ -45,8 +47,8 @@ features with categorical features)
 Cons
 * Wide screen monitor is required to view on the outputs from the html report
 * When analyzing a specific feature, the relationship with the target variable 
-isn't broken down by each dataset (train and test) and instead is combined. 
-This is a much needed enhancement  to see if the distributions of features and 
+isn't broken down by each dataset (train and test) and instead it is combined. 
+This is a much needed enhancement to see if the distributions of features and 
 the target variables are consistent between training and testing.
 * No tags to represent data issues. This is a nice feature in the pandas profiling
 package that isn't available in sweetviz. However, the missing values percentages are 
