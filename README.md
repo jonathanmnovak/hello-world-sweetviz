@@ -28,7 +28,10 @@ For the
 This generates a default report which runs EDA on both the training and testing
 datasets and compares the two datasets
 
-The code will output the report to `./tutorial/output/titanic_report.html`
+Output reports are placed in `./tutorial/output`
+* Report with default configuration: `titanic_report.html`
+* Report which drops the "PassengerId" and forces "Ticket" to categorical: ``
+`titanic_feature_config_chg_report.html`
 
 ####General thoughts:
 Pros 
