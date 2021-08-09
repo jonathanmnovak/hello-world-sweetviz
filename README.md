@@ -42,7 +42,7 @@ Pros
 * Comparing two datasets to see if iid is held
 * Analyzing mixed variable feature relationships (i.e. comparing numerical 
 features with categorical features)
-* Analyzing the relationship of features with target variable
+* Analyzing the relationship of features with target variable and sub-populations
 
 Cons
 * When analyzing a specific feature, the relationship with the target variable 
@@ -52,6 +52,12 @@ the target variables are consistent between training and testing.
 * No tags to represent data issues. This is a nice feature in the pandas profiling
 package that isn't available in sweetviz. However, the missing values percentages are 
 highlighted (green, yellow, and red) to indicate whether there is an issue.
+* Artifacts of the report aren't exportable. This would help in storing data related to 
+features (i.e. distribution statistics) and relationships (i.e. correlations)
+* This seems to work only for pandas dataframes and it isn't clear if it is scalable
+
+Overall: This is a great library that provides a ton of automated EDA and is 
+relatively simple to setup.
 
 ###Resources
 * [Powerful EDA (Exploratory Data Analysis) in just two lines of code using Sweetviz](https://towardsdatascience.com/powerful-eda-exploratory-data-analysis-in-just-two-lines-of-code-using-sweetviz-6c943d32f34)
