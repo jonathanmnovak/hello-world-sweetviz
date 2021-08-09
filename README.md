@@ -32,6 +32,8 @@ Output reports are placed in `./tutorial/output`
 * Report with default configuration: `titanic_report.html`
 * Report which drops the "PassengerId" and forces "Ticket" to categorical: ``
 `titanic_feature_config_chg_report.html`
+    **Note: You can also change the `dtype` in pd.read_csv to force a column to
+    a specific datatype (sweetviz will pickup this change)
 
 ####General thoughts:
 Pros 
