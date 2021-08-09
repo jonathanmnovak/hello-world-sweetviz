@@ -25,7 +25,27 @@ For the
 [Titanic Tutorial](https://towardsdatascience.com/powerful-eda-exploratory-data-analysis-in-just-two-lines-of-code-using-sweetviz-6c943d32f34), run the following: 
 `python3 ./tutorial/titanic_tutorial.py`
 
+This generates a default report which runs EDA on both the training and testing
+datasets and compares the two datasets
+
 The code will output the report to `./tutorial/output/titanic_report.html`
+
+####General thoughts:
+Pros 
+* Comparing two datasets to see if iid is held
+* Analyzing mixed variable feature relationships (i.e. comparing numerical 
+features with categorical features)
+* Analyzing the relationship of features with target variable
+
+Cons
+* Wide screen monitor is required to view on the outputs from the html report
+* When analyzing a specific feature, the relationship with the target variable 
+isn't broken down by each dataset (train and test) and instead is combined. 
+This is a much needed enhancement  to see if the distributions of features and 
+the target variables are consistent between training and testing.
+* No tags to represent data issues. This is a nice feature in the pandas profiling
+package that isn't available in sweetviz. However, the missing values percentages are 
+highlighted (green, yellow, and red) to indicate whether this is a potential issue.
 
 ###Resources
 * [Powerful EDA (Exploratory Data Analysis) in just two lines of code using Sweetviz](https://towardsdatascience.com/powerful-eda-exploratory-data-analysis-in-just-two-lines-of-code-using-sweetviz-6c943d32f34)
