@@ -4,7 +4,19 @@ Repository used to explore the
 be following the tutorials in the resources section.
 
 ###Setup
+Create environment:  
+`python3 -m venv sweetviz-venv`
 
+Activate the virtual environment:  
+`source sweetviz-venv/bin/activate`
+
+To deactivate the environment:  
+`deactivate`
+
+Install dependent libraries using `pip`  
+If a requirements file is provided, then you can install by running the 
+following:  
+`pip install -r requirements.txt` 
 
 ###Resources
 * [Powerful EDA (Exploratory Data Analysis) in just two lines of code using Sweetviz](https://towardsdatascience.com/powerful-eda-exploratory-data-analysis-in-just-two-lines-of-code-using-sweetviz-6c943d32f34)
